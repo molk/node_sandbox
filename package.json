@@ -1,0 +1,17 @@
+{
+  "name": "feature-consistency-check",
+  "version": "1.0.0",
+  "description": "Feature Consistency Check",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./lib/feature_check.js"
+  },
+  "author": "Marcus Olk",
+  "dependencies": {
+    "node-fetch": "~2.1.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "~2.1.2",
+    "typescript": "^3.1.6"
+  }
+}
